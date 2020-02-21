@@ -1,0 +1,11 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1/tree exp/tri1/1.mdl data/lang/L.fst "ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text |" "ark:|gzip -c >exp/tri1/fsts.1.gz" 
+# Started at Fri Feb 21 13:56:58 +0530 2020
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/tri1/tree exp/tri1/1.mdl data/lang/L.fst 'ark:utils/sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text |' 'ark:|gzip -c >exp/tri1/fsts.1.gz' 
+sym2int.pl: replacing එක් with 2
+sym2int.pl: replacing දහස් with 2
+sym2int.pl: replacing හරසීය with 2
+** Replaced 3 instances of OOVs with 2
+LOG (compile-train-graphs[5.5.592~1-2b30a]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 155 graphs, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Feb 21 13:56:58 +0530 2020, elapsed time 0 seconds

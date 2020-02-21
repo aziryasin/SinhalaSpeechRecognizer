@@ -1,0 +1,29 @@
+sil sil sil_B sil_E sil_I sil_S 
+spn spn spn_B spn_E spn_I spn_S 
+e e_B e_E e_I e_S 
+k k_B k_E k_I k_S 
+@ @_B @_E @_I @_S 
+d^ d^_B d^_E d^_I d^_S 
+t^ t^_B t^_E t^_I t^_S 
+u u_B u_E u_I u_S 
+n n_B n_E n_I n_S 
+h h_B h_E h_I h_S 
+a a_B a_E a_I a_S 
+r r_B r_E r_I r_S 
+p p_B p_E p_I p_S 
+y y_B y_E y_I y_S 
+t t_B t_E t_I t_S 
+w w_B w_E w_I w_S 
+o o_B o_E o_I o_S 
+l l_B l_E l_I l_S 
+s s_B s_E s_I s_S 
+m m_B m_E m_I m_S 
+r@ r@_B r@_E r@_I r@_S 
+b b_B b_E b_I b_S 
+i i_B i_E i_I i_S 
+x x_B x_E x_I x_S 
+a: a:_B a:_E a:_I a:_S 
+ae ae_B ae_E ae_I ae_S 
+ae: ae:_B ae:_E ae:_I ae:_S 
+u: u:_B u:_E u:_I u:_S 
+i: i:_B i:_E i:_I i:_S 

@@ -1,0 +1,71 @@
+!SIL	1.0	sil_S
+<UNK>	1.0	spn_S
+බිංදුව	1.0	b_B i_I x_I d^_I u_I w_I @_E
+එක	1.0	e_B k_I @_E
+දෙක	1.0	d^_B e_I k_I @_E
+තුන	1.0	t^_B u_I n_I @_E
+හතර	1.0	h_B a_I t^_I @_I r_I @_E
+පහ	1.0	p_B a_I h_I a_E
+හය	1.0	h_B a_I y_I @_E
+හත	1.0	h_B a_I t^_I @_E
+අට	1.0	a_B t_I @_E
+නවය	1.0	n_B a_I w_I @_I y_I @_E
+දහය	1.0	d^_B a_I h_I a_I y_I @_E
+එකොළහ	1.0	e_B k_I o_I l_I @_I h_I a_E
+දොළහ	1.0	d^_B o_I l_I @_I h_I a_E
+දහතුන	1.0	d^_B a_I h_I a_I t^_I u_I n_I @_E
+දහහතර	1.0	d^_B a_I h_I a_I h_I a_I t^_I @_I r_I @_E
+දාහතර	1.0	d^_B a:_I h_I @_I t^_I @_I r_I @_E
+පහළොව	1.0	p_B a_I h_I a_I l_I o_I w_I @_E
+දහසය	1.0	d^_B a_I h_I a_I s_I @_I y_I @_E
+දාසය	1.0	d^_B a:_I s_I @_I y_I @_E
+දහහත	1.0	d^_B a_I h_I a_I h_I a_I t^_I @_E
+දාහත	1.0	d^_B a:_I h_I @_I t^_I @_E
+දහඅට	1.0	d^_B a_I h_I a_I a_I t_I @_E
+දහනවය	1.0	d^_B a_I h_I a_I n_I @_I w_I @_I y_I @_E
+දහනමය	1.0	d^_B a_I h_I a_I n_I @_I m_I @_I y_I @_E
+විස්ස	1.0	w_B i_I s_I s_I @_E
+විසි	1.0	w_B i_I s_I i_E
+තිහ	1.0	t^_B i_I h_I @_E
+තිස්	1.0	t^_B i_I s_E
+හතලිහ	1.0	h_B a_I t^_I @_I l_I i_I h_I @_E
+හතලිස්	1.0	h_B a_I t^_I @_I l_I i_I s_E
+පනහ	1.0	p_B a_I n_I @_I h_I a_E
+පනස්	1.0	p_B a_I n_I a_I s_E
+හැට	1.0	h_B ae_I t_I @_E
+හැත්තෑව	1.0	h_B ae_I t^_I t^_I ae:_I w_I @_E
+හැත්ත	1.0	h_B ae_I t^_I t^_I @_E
+අසූව	1.0	a_B s_I u:_I w_I @_E
+අසූ	1.0	a_B s_I u:_E
+අනූව	1.0	a_B n_I u:_I w_I @_E
+අනූ	1.0	a_B n_I u:_E
+සීය	1.0	s_B i:_I y_I @_E
+එකසීය	1.0	e_B k_I @_I s_I i:_I y_I @_E
+දෙසීය	1.0	d^_B e_I s_I i:_I y_I @_E
+තුන්සීය	1.0	t^_B u_I n_I s_I i:_I y_I @_E
+හාරසීය	1.0	h_B a_I r_I @_I s_I i:_I y_I @_E
+පන්සීය	1.0	p_B a_I n_I s_I i:_I y_I @_E
+හයසීය	1.0	h_B a_I y_I @_I s_I i:_I y_I @_E
+හත්සීය	1.0	h_B a_I t^_I s_I i:_I y_I @_E
+අටසීය	1.0	a_B t_I @_I s_I i:_I y_I @_E
+නවසීය	1.0	n_B a_I w_I @_I s_I i:_I y_I @_E
+නමසීය	1.0	n_B a_I m_I @_I s_I i:_I y_I @_E
+දාහ	1.0	d^_B a:_I h_I @_E
+එකදාහ	1.0	e_B k_I @_I d^_I a:_I h_I @_E
+එක්දහස්	1.0	e_B k_I d^_I a_I h_I a_I s_E
+දෙදාහ	1.0	d^_B e_I d^_I a:_I h_I @_E
+දෙදහස්	1.0	d^_B e_I d^_I @_I h_I a_I s_E
+තුන්දාහ	1.0	t^_B u_I n_I d^_I a:_I h_I @_E
+තුන්දහස්	1.0	t^_B u_I n_I d^_I @_I h_I a_I s_E
+හාරදහස්	1.0	h_B a:_I r_I @_I d^_I @_I h_I a_I s_E
+පන්දාහ	1.0	p_B a_I n_I d^_I a:_I h_I @_E
+පන්දහස්	1.0	p_B a_I n_I d^_I @_I h_I a_I s_E
+හයදාහ	1.0	h_B a_I y_I @_I d^_I a:_I h_I @_E
+හයදහස්	1.0	h_B a_I y_I @_I d^_I @_I h_I a_I s_E
+හත්දාහ	1.0	h_B a_I t^_I d^_I a:_I h_I @_E
+හත්දහස්	1.0	h_B a_I t^_I d^_I @_I h_I a_I s_E
+අටදාහ	1.0	a_B t_I @_I d^_I a:_I h_I @_E
+අටදහස්	1.0	a_B t_I @_I d^_I @_I h_I a_I s_E
+නවදාහ	1.0	n_B a_I w_I @_I d^_I a:_I h_I @_E
+නවදහස්	1.0	n_B a_I w_I @_I d^_I @_I h_I a_I s_E
+දහදාහ	1.0	d^_B a_I h_I a_I d^_I a:_I h_I @_E

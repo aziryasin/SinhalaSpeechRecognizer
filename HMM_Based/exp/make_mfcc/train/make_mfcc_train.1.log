@@ -1,0 +1,179 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_train.1.ark,/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_train.1.scp 
+# Started at Fri Feb 21 13:56:29 +0530 2020
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_train.1.ark,/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_train.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_1_0_6
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_1_7_4
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_1_9_6
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_3_0_6
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_4_2_1
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_4_6_0
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_5_3_0
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_6_1_1
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_6_9_8
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_7_6_3
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_10
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_100
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_1000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_10000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_1000_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_1000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_100_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_11
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_12
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_13
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_14
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_14_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_15
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_15_50
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_16
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_169
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_16_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_17
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_17_2
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_18
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_181
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_19
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_1991
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_19_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_19_91
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_1_5_5_0
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_1_9_9_1
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_20
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_200
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_2000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_2000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_21
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_2320
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_23_20
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_2780
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_27_80
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_2_3_2_0
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_2_7_6
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_2_7_8_1
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_30
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_300
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_3000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_3000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_32
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_326
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_365
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_36_10
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_3896
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_3_6_1_0
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_40
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_400
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_4000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_4179
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_41_79
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_427
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_43
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_466
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_4_1_7_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_50
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_500
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_5000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_5000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_517
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_53_99
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_54
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_552
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_5649
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_5973
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_59_73
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_5_3_9_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_5_6_4_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_5_9_7_3
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_60
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_600
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_6000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_6000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_6040
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_60_40
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_61
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_630
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_70
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_700
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_7000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_7000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_7138
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_713_8
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_71_38
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_75
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_7545
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_757
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_75_45
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_788
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_7_1_3_8
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_7_5_4_5
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_80
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_800
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_8000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_8000s
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_8171
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_81_71
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_8682
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_86_82
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_89
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_896
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_8_6_8_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_90
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_900
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_9000
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_9000s
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_9379
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_938
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_96
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_979
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_97_21
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_9_3_7_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_1_2_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_1_6_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_3_9_1
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_4_2_9
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_4_4_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_6_8_5
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_8_4_6
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_9_0_1
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_9_2_1
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key praveen_9_6_5
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_1_1_8
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_2_5_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_2_7_9
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_3_5_7
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_5_1_5
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_5_9_7
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_6_4_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_6_4_8
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_9_2_5
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key ravindu_9_3_8
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_1_2_8
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_1_5_2
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_3_3_6
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_3_6_1
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_4_0_3
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_4_1_7
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_4_2_7
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_5_4_5
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_6_4_1
+VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key sarinda_8_5_8
+LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:185)  Done 155 out of 155 utterances.
+LOG (copy-feats[5.5.592~1-2b30a]:main():copy-feats.cc:143) Copied 155 feature matrices.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Fri Feb 21 13:56:31 +0530 2020, elapsed time 2 seconds

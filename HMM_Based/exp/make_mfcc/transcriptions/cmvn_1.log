@@ -1,0 +1,2 @@
+compute-cmvn-stats --spk2utt=ark:transcriptions/split1/1/spk2utt scp:transcriptions/split1/1/feats.scp ark,scp:/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/transcriptions/split1/1/data/cmvn_1.ark,/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/transcriptions/split1/1/data/cmvn_1.scp 
+LOG (compute-cmvn-stats[5.5.592~1-2b30a]:main():compute-cmvn-stats.cc:171) Done accumulating CMVN stats for 20 utterances; 0 had errors.

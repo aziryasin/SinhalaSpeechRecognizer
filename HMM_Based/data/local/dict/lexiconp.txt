@@ -1,0 +1,71 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+බිංදුව 1.0	b i x d^ u w @
+එක 1.0	e k @
+දෙක 1.0	d^ e k @
+තුන 1.0	t^ u n @
+හතර 1.0	h a t^ @ r @
+පහ 1.0	p a h a
+හය 1.0	h a y @
+හත 1.0	h a t^ @
+අට 1.0	a t @
+නවය 1.0	n a w @ y @
+දහය 1.0	d^ a h a y @
+එකොළහ 1.0	e k o l @ h a
+දොළහ 1.0	d^ o l @ h a
+දහතුන 1.0	d^ a h a t^ u n @
+දහහතර 1.0	d^ a h a h a t^ @ r @
+දාහතර 1.0	d^ a: h @ t^ @ r @
+පහළොව 1.0	p a h a l o w @
+දහසය 1.0	d^ a h a s @ y @
+දාසය 1.0	d^ a: s @ y @
+දහහත 1.0	d^ a h a h a t^ @
+දාහත 1.0	d^ a: h @ t^ @
+දහඅට 1.0	d^ a h a a t @
+දහනවය 1.0	d^ a h a n @ w @ y @
+දහනමය 1.0	d^ a h a n @ m @ y @
+විස්ස 1.0	w i s s @
+විසි 1.0	w i s i
+තිහ 1.0	t^ i h @
+තිස් 1.0	t^ i s
+හතලිහ 1.0	h a t^ @ l i h @
+හතලිස් 1.0	h a t^ @ l i s
+පනහ 1.0	p a n @ h a
+පනස් 1.0	p a n a s
+හැට 1.0	h ae t @
+හැත්තෑව 1.0	h ae t^ t^ ae: w @
+හැත්ත 1.0	h ae t^ t^ @
+අසූව 1.0	a s u: w @
+අසූ 1.0	a s u:
+අනූව 1.0	a n u: w @
+අනූ 1.0	a n u:
+සීය 1.0	s i: y @
+එකසීය 1.0	e k @ s i: y @
+දෙසීය 1.0	d^ e s i: y @
+තුන්සීය 1.0	t^ u n s i: y @
+හාරසීය 1.0	h a r @ s i: y @
+පන්සීය 1.0	p a n s i: y @
+හයසීය 1.0	h a y @ s i: y @
+හත්සීය 1.0	h a t^ s i: y @
+අටසීය 1.0	a t @ s i: y @
+නවසීය 1.0	n a w @ s i: y @
+නමසීය 1.0	n a m @ s i: y @
+දාහ 1.0	d^ a: h @
+එකදාහ 1.0	e k @ d^ a: h @
+එක්දහස් 1.0	e k d^ a h a s
+දෙදාහ 1.0	d^ e d^ a: h @
+දෙදහස් 1.0	d^ e d^ @ h a s
+තුන්දාහ 1.0	t^ u n d^ a: h @
+තුන්දහස් 1.0	t^ u n d^ @ h a s
+හාරදහස් 1.0	h a: r @ d^ @ h a s
+පන්දාහ 1.0	p a n d^ a: h @
+පන්දහස් 1.0	p a n d^ @ h a s
+හයදාහ 1.0	h a y @ d^ a: h @
+හයදහස් 1.0	h a y @ d^ @ h a s
+හත්දාහ 1.0	h a t^ d^ a: h @ 
+හත්දහස් 1.0	h a t^ d^ @ h a s 
+අටදාහ 1.0	a t @ d^ a: h @
+අටදහස් 1.0	a t @ d^ @ h a s
+නවදාහ 1.0	n a w @ d^ a: h @
+නවදහස් 1.0	n a w @ d^ @ h a s
+දහදාහ 1.0	d^ a h a d^ a: h @

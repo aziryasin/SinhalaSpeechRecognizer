@@ -1,0 +1,52 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:transcriptions/split1/1/utt2spk scp:transcriptions/split1/1/cmvn.scp scp:transcriptions/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at Fri Feb 21 14:04:12 +0530 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:transcriptions/split1/1/utt2spk scp:transcriptions/split1/1/cmvn.scp scp:transcriptions/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:transcriptions/split1/1/utt2spk scp:transcriptions/split1/1/cmvn.scp scp:transcriptions/split1/1/feats.scp ark:- 
+new_13 දහතුන 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_13 is -7.81204 over 91 frames.
+new_148 එකසීය හතලිස් හත 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_148 is -7.84237 over 183 frames.
+new_14 දහහතර 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_14 is -7.91036 over 96 frames.
+new_1550 දෙදහස් පන්සීය පනහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_1550 is -7.63214 over 241 frames.
+new_20 විස්ස 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_20 is -7.72865 over 87 frames.
+new_230 දෙසීය තිහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_230 is -7.48929 over 148 frames.
+new_3610 තුන්දහස් හයසීය දහය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_3610 is -7.47823 over 230 frames.
+new_3_8_9_6 තුන අට නවය හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_3_8_9_6 is -7.7032 over 227 frames.
+new_38_96 තිස් අට අනූ හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_38_96 is -7.87702 over 198 frames.
+new_500 පන්සීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_500 is -8.217 over 82 frames.
+new_5399 පන්දහස් තුන්සීය අනූ නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_5399 is -7.90364 over 203 frames.
+LOG (apply-cmvn[5.5.592~1-2b30a]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 20 utterances, errors on 0
+new_56_49 පනස් හය හතලිස් නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_56_49 is -7.62647 over 195 frames.
+new_6_4_7_5 හය හතර හතර පහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_6_4_7_5 is -7.57517 over 258 frames.
+new_64_75 හැට හතර හැත්ත පහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_64_75 is -7.95827 over 218 frames.
+new_6475 හයදහස් හාරසීය හත පහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_6475 is -7.85176 over 224 frames.
+new_651 හයසීය පනස් එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_651 is -7.67525 over 182 frames.
+new_7_138 හත එකසීය තිස් අට 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_7_138 is -8.17707 over 267 frames.
+new_810 අටසීය දහය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_810 is -7.54379 over 131 frames.
+new_9_7_2_1 නවය හත එක එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_9_7_2_1 is -7.77999 over 270 frames.
+new_9721 නවදහස් හත්සීය විසි එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance new_9721 is -7.94545 over 212 frames.
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:176) Time taken 0.532347s: real-time factor assuming 100 frames/sec is 0.0142225
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:179) Done 20 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.78007 over 3743 frames.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Fri Feb 21 14:04:12 +0530 2020, elapsed time 0 seconds
