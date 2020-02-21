@@ -9,3 +9,4 @@ To use this code, please follow the following instructions
 
  - Download and Install Kaldi from this [link](https://github.com/kaldi-asr/kaldi). (Please follow the instructions given in the INSTALL file)
  - Then clone this repository in your <kaldi_home>/egs
+ - After that to run HMM based model, change directory to HMM_Based on the terminal run command sudo ./run.sh
