@@ -1,0 +1,4 @@
+compute-wer --text --mode=present ark:exp/nnet2/nnet2_simple/decode/scoring/test_true_transcripts.txt ark,p:- 
+%WER 22.53 [ 41 / 182, 1 ins, 7 del, 33 sub ]
+%SER 34.04 [ 32 / 94 ]
+Scored 94 sentences, 0 not present in hyp.

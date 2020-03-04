@@ -1,0 +1,5 @@
+azir /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_train.ark:5
+azir_cont /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_train.ark:254
+praveen /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_train.ark:501
+ravindu /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_train.ark:748
+sarinda /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_train.ark:995

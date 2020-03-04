@@ -1,0 +1,7 @@
+# nnet-get-egs --left-context=4 --right-context=4 "ark,s,cs:copy-feats scp:data/train/split1/1/feats.scp ark:- |" "ark,s,cs:gunzip -c exp/tri1/ali.1.gz | ali-to-pdf exp/tri1/final.mdl ark:- ark:- | ali-to-post ark:- ark:- |" ark:- | nnet-copy-egs ark:- ark:exp/nnet2//egs/egs_orig.1.1.ark ark:exp/nnet2//egs/egs_orig.2.1.ark ark:exp/nnet2//egs/egs_orig.3.1.ark ark:exp/nnet2//egs/egs_orig.4.1.ark 
+# Started at Thu Feb 27 13:17:09 +0530 2020
+#
+bash: line 1: nnet-get-egs: command not found
+bash: line 1: nnet-copy-egs: command not found
+# Accounting: time=0 threads=1
+# Ended (code 127) at Thu Feb 27 13:17:09 +0530 2020, elapsed time 0 seconds

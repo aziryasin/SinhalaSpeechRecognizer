@@ -1,0 +1,196 @@
+# lattice-best-path --lm-scale=9 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/9.tra 
+# Started at Thu Feb 27 11:43:45 +0530 2020
+#
+lattice-best-path --lm-scale=9 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/9.tra 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_10, best cost 129.965 + 9151.37 = 9281.33 over 105 frames.
+azir_cont_10 දහය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_100, best cost 116.165 + 7219.36 = 7335.52 over 85 frames.
+azir_cont_100 සීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_1000, best cost 109.381 + 5488.6 = 5597.98 over 65 frames.
+azir_cont_1000 දාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_10000, best cost 131.411 + 9122.58 = 9253.99 over 102 frames.
+azir_cont_10000 දහදාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_1000_2, best cost 149.727 + 11159.9 = 11309.6 over 127 frames.
+azir_cont_1000_2 එකදාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_1000s, best cost 105.705 + 8630.27 = 8735.98 over 94 frames.
+azir_cont_1000s දෙදහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_100_2, best cost 120.297 + 9072.11 = 9192.41 over 103 frames.
+azir_cont_100_2 එකසීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_11, best cost 105.154 + 7491.65 = 7596.81 over 77 frames.
+azir_cont_11 එකොළහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_12, best cost 103.879 + 6593.86 = 6697.73 over 71 frames.
+azir_cont_12 දොළහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_13, best cost 130.617 + 8351.25 = 8481.87 over 91 frames.
+azir_cont_13 දහතුන 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_14, best cost 123.009 + 8143.48 = 8266.48 over 94 frames.
+azir_cont_14 දාහතර 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_148, best cost 251.888 + 17236.1 = 17488 over 183 frames.
+azir_cont_148 එකසීය හතලිස් හත 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_14_2, best cost 123.796 + 7531.29 = 7655.09 over 84 frames.
+azir_cont_14_2 දහහතර 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_15, best cost 113.179 + 6156.51 = 6269.69 over 69 frames.
+azir_cont_15 පහළොව 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_1550, best cost 303.836 + 22034.3 = 22338.1 over 241 frames.
+azir_cont_1550 දෙදහස් පන්සීය පනහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_16, best cost 112.912 + 7997.7 = 8110.62 over 94 frames.
+azir_cont_16 දාසය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_16_2, best cost 127.848 + 7683.41 = 7811.25 over 88 frames.
+azir_cont_16_2 දහසය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_17, best cost 101.865 + 6354.16 = 6456.02 over 74 frames.
+azir_cont_17 දාහත 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_17_2, best cost 133.521 + 8318.73 = 8452.25 over 94 frames.
+azir_cont_17_2 දහහත 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_18, best cost 126.177 + 8030.55 = 8156.73 over 90 frames.
+azir_cont_18 දහඅට 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_19, best cost 122.793 + 8217.53 = 8340.33 over 93 frames.
+azir_cont_19 දහනවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_19_2, best cost 144.762 + 9752.25 = 9897.02 over 104 frames.
+azir_cont_19_2 දහනමය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_20, best cost 116.001 + 8846.97 = 8962.97 over 98 frames.
+azir_cont_20 විස්ස 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_200, best cost 126.843 + 7920.85 = 8047.7 over 93 frames.
+azir_cont_200 දෙසීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_2000, best cost 126.086 + 8649.9 = 8775.99 over 101 frames.
+azir_cont_2000 දෙදාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_2000s, best cost 103.045 + 7859.31 = 7962.35 over 89 frames.
+azir_cont_2000s දෙදහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_21, best cost 154.482 + 8962.72 = 9117.2 over 95 frames.
+azir_cont_21 විසි එක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_230, best cost 206.224 + 13421.4 = 13627.6 over 148 frames.
+azir_cont_230 දෙසීය තිහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_300, best cost 121.721 + 8092.09 = 8213.81 over 91 frames.
+azir_cont_300 තුන්සීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_3000, best cost 128.975 + 9247.61 = 9376.58 over 111 frames.
+azir_cont_3000 තුන්දාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_3000s, best cost 118.59 + 8817.5 = 8936.09 over 105 frames.
+azir_cont_3000s තුන්දහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_32, best cost 156.675 + 8422.58 = 8579.26 over 95 frames.
+azir_cont_32 තිස් දෙක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_3610, best cost 304.287 + 20592.7 = 20896.9 over 230 frames.
+azir_cont_3610 තුන්දහස් හයසීය දහය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_38_96, best cost 285.266 + 18497 = 18782.3 over 198 frames.
+azir_cont_38_96 තිස් අට අනූ හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_3_8_9_6, best cost 280.737 + 20580.8 = 20861.5 over 227 frames.
+azir_cont_3_8_9_6 තුන අට නවය හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_40, best cost 125.662 + 8770.69 = 8896.35 over 98 frames.
+azir_cont_40 හතලිහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_400, best cost 124.981 + 10268.3 = 10393.3 over 112 frames.
+azir_cont_400 හත්සීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_4000s, best cost 111.951 + 6161.18 = 6273.13 over 69 frames.
+azir_cont_4000s හාරදහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_43, best cost 170.066 + 11204.9 = 11375 over 126 frames.
+azir_cont_43 හතලිස් තුන 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_50, best cost 116.063 + 5453.63 = 5569.69 over 58 frames.
+azir_cont_50 පනහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_500, best cost 110.703 + 7460 = 7570.7 over 86 frames.
+azir_cont_500 පන්සීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_5000, best cost 128.365 + 8685.28 = 8813.65 over 107 frames.
+azir_cont_5000 පන්දාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_5000s, best cost 120.345 + 9271.42 = 9391.77 over 111 frames.
+azir_cont_5000s පන්දහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_5399, best cost 345.54 + 18875.4 = 19221 over 203 frames.
+azir_cont_5399 පන්දහස් තුන්සීය අනූ අනූව 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_54, best cost 167.569 + 10105.8 = 10273.3 over 113 frames.
+azir_cont_54 පනස් හතර 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_56_49, best cost 295.289 + 17649 = 17944.3 over 195 frames.
+azir_cont_56_49 පනස් හය හතලිස් නවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_60, best cost 100.689 + 5816.15 = 5916.84 over 64 frames.
+azir_cont_60 හැට 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_600, best cost 117.39 + 9610.86 = 9728.25 over 116 frames.
+azir_cont_600 හයසීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_6000, best cost 128.725 + 9709.02 = 9837.75 over 117 frames.
+azir_cont_6000 හයදාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_6000s, best cost 115.854 + 8866.55 = 8982.4 over 104 frames.
+azir_cont_6000s හයදහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_61, best cost 150.51 + 10747.4 = 10897.9 over 120 frames.
+azir_cont_61 හැට එක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_6475, best cost 330.118 + 20743.7 = 21073.8 over 224 frames.
+azir_cont_6475 හයදහස් හත්සීය හැත්ත පහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_64_75, best cost 301.586 + 20320.5 = 20622 over 218 frames.
+azir_cont_64_75 හැට හතර හැත්ත පහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_651, best cost 245.148 + 16936.2 = 17181.4 over 182 frames.
+azir_cont_651 හයසීය පනස් එක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_6_4_7_5, best cost 294.197 + 22857.3 = 23151.5 over 258 frames.
+azir_cont_6_4_7_5 හය හතර හත පහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_70, best cost 105.245 + 7397.7 = 7502.94 over 82 frames.
+azir_cont_70 හැත්තෑව 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_700, best cost 111.46 + 9703.24 = 9814.7 over 113 frames.
+azir_cont_700 හත්සීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_7000, best cost 136.258 + 11158 = 11294.3 over 127 frames.
+azir_cont_7000 හත්දාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_7000s, best cost 112.191 + 9868.62 = 9980.81 over 116 frames.
+azir_cont_7000s හත්දහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_75, best cost 148.435 + 10674.6 = 10823 over 117 frames.
+azir_cont_75 හැත්ත පහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_7_138, best cost 389.039 + 25299.9 = 25688.9 over 267 frames.
+azir_cont_7_138 හත තිස් එකසීය තිස් අට 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_80, best cost 117.347 + 7798.92 = 7916.27 over 86 frames.
+azir_cont_80 අසූව 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_800, best cost 114.021 + 8508.03 = 8622.05 over 98 frames.
+azir_cont_800 අටසීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_8000, best cost 128.115 + 8189.73 = 8317.84 over 95 frames.
+azir_cont_8000 අටදාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_8000s, best cost 118.777 + 9018.49 = 9137.27 over 106 frames.
+azir_cont_8000s අටදහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_810, best cost 206.897 + 11911.5 = 12118.4 over 131 frames.
+azir_cont_810 අටසීය දහය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_89, best cost 171.005 + 10975.6 = 11146.6 over 126 frames.
+azir_cont_89 අසූ නවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_90, best cost 120.072 + 6324.59 = 6444.66 over 71 frames.
+azir_cont_90 අනූව 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_900, best cost 121.464 + 9746.01 = 9867.47 over 115 frames.
+azir_cont_900 නවසීය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_9000, best cost 134.999 + 8445.61 = 8580.61 over 103 frames.
+azir_cont_9000 නවදාහ 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_9000s, best cost 125.397 + 10654.9 = 10780.3 over 123 frames.
+azir_cont_9000s නවදහස් 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_96, best cost 152.168 + 9495.34 = 9647.5 over 107 frames.
+azir_cont_96 අනූ හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_9721, best cost 313.643 + 19730.3 = 20043.9 over 212 frames.
+azir_cont_9721 නවදහස් හත්සීය විසි එක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_9_7_2_1, best cost 284.828 + 24511.6 = 24796.4 over 270 frames.
+azir_cont_9_7_2_1 නවය හත එක එක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_1_5_8, best cost 233.096 + 26517.2 = 26750.3 over 286 frames.
+sajith_1_5_8 දෙක පහ අට 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_2_3_6, best cost 247.254 + 29902.7 = 30150 over 306 frames.
+sajith_2_3_6 දෙක තුන හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_3_0_9, best cost 284.405 + 27556.1 = 27840.5 over 283 frames.
+sajith_3_0_9 තුන බිංදුව නවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_3_6_9, best cost 250.879 + 26448.3 = 26699.2 over 269 frames.
+sajith_3_6_9 තුන හය නවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_5_5_6, best cost 235.795 + 26227.5 = 26463.3 over 283 frames.
+sajith_5_5_6 පහ පහ හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_5_6_2, best cost 262.188 + 25224.2 = 25486.3 over 263 frames.
+sajith_5_6_2 පහ හතලිහ දෙක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_5_6_6, best cost 265.885 + 29741.9 = 30007.8 over 323 frames.
+sajith_5_6_6 පහ හතලිහ හත 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_6_1_4, best cost 266.846 + 28152.2 = 28419.1 over 299 frames.
+sajith_6_1_4 හතලිහ එක හතර 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_7_4_2, best cost 259.525 + 28461.1 = 28720.6 over 296 frames.
+sajith_7_4_2 හත හතර දෙක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance sajith_7_9_6, best cost 282.011 + 27745.4 = 28027.5 over 283 frames.
+sajith_7_9_6 හත නවය හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_1_1_8, best cost 225.523 + 30322.3 = 30547.8 over 321 frames.
+shehan_1_1_8 එක එක අට 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_1_4_8, best cost 248.171 + 28153.3 = 28401.4 over 299 frames.
+shehan_1_4_8 එක හතර අට 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_1_7_2, best cost 298.03 + 31109.2 = 31407.2 over 321 frames.
+shehan_1_7_2 එක හත දෙක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_2_4_6, best cost 249.361 + 29031.2 = 29280.6 over 302 frames.
+shehan_2_4_6 දෙක හතර හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_3_1_9, best cost 270.224 + 30741.6 = 31011.9 over 317 frames.
+shehan_3_1_9 තුන එක නවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_3_2_1, best cost 278.511 + 32835.7 = 33114.2 over 356 frames.
+shehan_3_2_1 තුන දෙක එක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_4_5_2, best cost 264.21 + 34716.9 = 34981.2 over 378 frames.
+shehan_4_5_2 හතර පහ දෙක 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_5_6_6, best cost 250.717 + 34984.4 = 35235.2 over 363 frames.
+shehan_5_6_6 පහ හය හය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_8_0_9, best cost 304.75 + 32387 = 32691.7 over 333 frames.
+shehan_8_0_9 අට බිංදුව නවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance shehan_9_1_9, best cost 244.557 + 32144.7 = 32389.3 over 321 frames.
+shehan_9_1_9 නවය එක නවය 
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:124) Overall cost per frame is 92.9493 = 1.12413 [graph] + 91.8252 [acoustic] over 15257 frames.
+LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:128) Done 94 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Thu Feb 27 11:43:45 +0530 2020, elapsed time 0 seconds

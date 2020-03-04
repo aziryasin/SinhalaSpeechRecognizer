@@ -1,0 +1,9 @@
+e_B k_B @_B d^_B t^_B u_B n_B h_B a_B r_B p_B y_B t_B w_B o_B l_B s_B m_B r@_B b_B i_B x_B a:_B ae_B ae:_B u:_B i:_B 
+e_E k_E @_E d^_E t^_E u_E n_E h_E a_E r_E p_E y_E t_E w_E o_E l_E s_E m_E r@_E b_E i_E x_E a:_E ae_E ae:_E u:_E i:_E 
+e_I k_I @_I d^_I t^_I u_I n_I h_I a_I r_I p_I y_I t_I w_I o_I l_I s_I m_I r@_I b_I i_I x_I a:_I ae_I ae:_I u:_I i:_I 
+e_S k_S @_S d^_S t^_S u_S n_S h_S a_S r_S p_S y_S t_S w_S o_S l_S s_S m_S r@_S b_S i_S x_S a:_S ae_S ae:_S u:_S i:_S 
+sil spn 
+sil_B spn_B 
+sil_E spn_E 
+sil_I spn_I 
+sil_S spn_S 
