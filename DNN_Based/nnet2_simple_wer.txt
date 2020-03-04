@@ -1,0 +1,1 @@
+%WER 18.68 [ 34 / 182, 1 ins, 5 del, 28 sub ] exp/nnet2/nnet2_simple/decode/wer_10

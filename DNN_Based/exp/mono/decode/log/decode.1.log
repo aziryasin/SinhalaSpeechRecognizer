@@ -1,0 +1,200 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode/lat.1.gz" 
+# Started at Thu Feb 27 11:43:43 +0530 2020
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+azir_cont_10 දහය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_10 is -7.40049 over 105 frames.
+azir_cont_100 සීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_100 is -7.22962 over 85 frames.
+azir_cont_1000 දාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_1000 is -7.22362 over 65 frames.
+azir_cont_10000 දහදාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_10000 is -7.59621 over 102 frames.
+azir_cont_1000_2 දෙදාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_1000_2 is -7.45202 over 127 frames.
+azir_cont_1000s දෙදහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_1000s is -7.77587 over 94 frames.
+azir_cont_100_2 එකසීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_100_2 is -7.46963 over 103 frames.
+azir_cont_11 එකොළහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_11 is -8.25956 over 77 frames.
+azir_cont_12 දොළහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_12 is -7.9018 over 71 frames.
+azir_cont_13 දහතුන 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_13 is -7.80712 over 91 frames.
+azir_cont_14 දාහතර 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_14 is -7.36477 over 94 frames.
+azir_cont_148 එකසීය හතලිස් හත 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_148 is -8.00176 over 183 frames.
+azir_cont_14_2 දහහතර 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_14_2 is -7.63524 over 84 frames.
+azir_cont_15 පහළොව 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_15 is -7.61762 over 69 frames.
+azir_cont_1550 දෙදහස් පන්සීය පනහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_1550 is -7.75909 over 241 frames.
+azir_cont_16 දාසය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_16 is -7.2236 over 94 frames.
+azir_cont_16_2 දහසය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_16_2 is -7.43735 over 88 frames.
+azir_cont_17 දාහත 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_17 is -7.3085 over 74 frames.
+azir_cont_17_2 දහහත 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_17_2 is -7.53256 over 94 frames.
+azir_cont_18 දහඅට 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_18 is -7.59144 over 90 frames.
+azir_cont_19 දහනවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_19 is -7.51006 over 93 frames.
+azir_cont_19_2 දහනමය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_19_2 is -7.96893 over 104 frames.
+azir_cont_20 විස්ස 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_20 is -7.65443 over 98 frames.
+azir_cont_200 දෙසීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_200 is -7.24905 over 93 frames.
+azir_cont_2000 දෙදාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_2000 is -7.27557 over 101 frames.
+azir_cont_2000s දෙදහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_2000s is -7.48752 over 89 frames.
+azir_cont_21 විසි එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_21 is -8.04268 over 95 frames.
+azir_cont_230 දෙසීය තිහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_230 is -7.71187 over 148 frames.
+azir_cont_300 තුන්සීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_300 is -7.55894 over 91 frames.
+azir_cont_3000 තුන්දාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_3000 is -7.07173 over 111 frames.
+azir_cont_3000s තුන්දහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_3000s is -7.12348 over 105 frames.
+azir_cont_32 තිස් දෙක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_32 is -7.57145 over 95 frames.
+azir_cont_3610 තුන්දහස් හයසීය දහය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_3610 is -7.60808 over 230 frames.
+azir_cont_38_96 තිස් අට අනූ හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_38_96 is -7.94498 over 198 frames.
+azir_cont_3_8_9_6 තුන අට නවය හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_3_8_9_6 is -7.69273 over 227 frames.
+azir_cont_40 හතලිහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_40 is -7.60051 over 98 frames.
+azir_cont_400 හත්සීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_400 is -7.76408 over 112 frames.
+azir_cont_4000s හාරදහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_4000s is -7.62129 over 69 frames.
+azir_cont_43 හතලිස් තුන 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_43 is -7.5606 over 126 frames.
+azir_cont_50 පනහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_50 is -8.05798 over 58 frames.
+azir_cont_500 පන්සීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_500 is -7.37168 over 86 frames.
+azir_cont_5000 පන්දාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_5000 is -6.89751 over 107 frames.
+azir_cont_5000s පන්දහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_5000s is -7.08097 over 111 frames.
+azir_cont_5399 පන්දහස් තුන්සීය අනූ අනූව 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_5399 is -7.93763 over 203 frames.
+azir_cont_54 පනස් හතර 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_54 is -7.61736 over 113 frames.
+azir_cont_56_49 පනස් හය හතලිස් නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_56_49 is -7.71054 over 195 frames.
+azir_cont_60 හැට 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_60 is -7.74789 over 64 frames.
+azir_cont_600 හයසීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_600 is -7.01677 over 116 frames.
+azir_cont_6000 හයදාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_6000 is -7.03748 over 117 frames.
+azir_cont_6000s හයදහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_6000s is -7.22835 over 104 frames.
+azir_cont_61 හැට එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_61 is -7.60279 over 120 frames.
+azir_cont_6475 හයදහස් හත්සීය හැත්ත පහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_6475 is -7.88086 over 224 frames.
+azir_cont_64_75 හැට හතර හැත්ත පහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_64_75 is -7.92145 over 218 frames.
+azir_cont_651 හයසීය පනස් එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_651 is -7.90432 over 182 frames.
+azir_cont_6_4_7_5 හය හතර හත පහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_6_4_7_5 is -7.50953 over 258 frames.
+azir_cont_70 හැත්තෑව 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_70 is -7.66056 over 82 frames.
+azir_cont_700 හත්සීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_700 is -7.26535 over 113 frames.
+azir_cont_7000 හත්දාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_7000 is -7.44071 over 127 frames.
+azir_cont_7000s හත්දහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_7000s is -7.19696 over 116 frames.
+azir_cont_75 හැත්ත පහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_75 is -7.74392 over 117 frames.
+azir_cont_7_138 හත තිස් එකසීය තිස් අට 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_7_138 is -8.05821 over 267 frames.
+azir_cont_80 අසූව 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_80 is -7.70868 over 86 frames.
+azir_cont_800 අටසීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_800 is -7.36396 over 98 frames.
+azir_cont_8000 අටදාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_8000 is -7.33379 over 95 frames.
+azir_cont_8000s අටදහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_8000s is -7.21448 over 106 frames.
+azir_cont_810 අටසීය දහය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_810 is -7.75272 over 131 frames.
+azir_cont_89 අසූ නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_89 is -7.40976 over 126 frames.
+azir_cont_90 අනූව 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_90 is -7.6111 over 71 frames.
+azir_cont_900 නවසීය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_900 is -7.17965 over 115 frames.
+azir_cont_9000 නවදාහ 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_9000 is -6.97862 over 103 frames.
+azir_cont_9000s නවදහස් 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_9000s is -7.33201 over 123 frames.
+azir_cont_96 අනූ හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_96 is -7.55311 over 107 frames.
+azir_cont_9721 නවදහස් හත්සීය විසි එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_9721 is -7.91996 over 212 frames.
+azir_cont_9_7_2_1 නවය හත එක එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance azir_cont_9_7_2_1 is -7.68248 over 270 frames.
+sajith_1_5_8 දෙක පහ අට 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_1_5_8 is -7.817 over 286 frames.
+sajith_2_3_6 දෙක තුන හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_2_3_6 is -8.23319 over 306 frames.
+sajith_3_0_9 තුන බිංදුව නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_3_0_9 is -8.2259 over 283 frames.
+sajith_3_6_9 තුන හය නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_3_6_9 is -8.29701 over 269 frames.
+sajith_5_5_6 පහ පහ හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_5_5_6 is -7.81561 over 283 frames.
+sajith_5_6_2 පහ හතලිහ දෙක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_5_6_2 is -8.10318 over 263 frames.
+sajith_5_6_6 පහ හතලිහ හත 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_5_6_6 is -7.76479 over 323 frames.
+sajith_6_1_4 හතලිහ එක හතර 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_6_1_4 is -7.94535 over 299 frames.
+sajith_7_4_2 හත හතර දෙක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_7_4_2 is -8.11007 over 296 frames.
+sajith_7_9_6 හත නවය හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance sajith_7_9_6 is -8.28073 over 283 frames.
+shehan_1_1_8 එක එක අට 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_1_1_8 is -7.94986 over 321 frames.
+shehan_1_4_8 එක හතර අට 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_1_4_8 is -7.9387 over 299 frames.
+shehan_1_7_2 එක හත දෙක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_1_7_2 is -8.17923 over 321 frames.
+shehan_2_4_6 දෙක හතර හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_2_4_6 is -8.10254 over 302 frames.
+LOG (apply-cmvn[5.5.592~1-2b30a]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 94 utterances, errors on 0
+shehan_3_1_9 තුන එක නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_3_1_9 is -8.17608 over 317 frames.
+shehan_3_2_1 තුන දෙක එක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_3_2_1 is -7.77315 over 356 frames.
+shehan_4_5_2 හතර පහ දෙක 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_4_5_2 is -7.73128 over 378 frames.
+shehan_5_6_6 පහ හය හය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_5_6_6 is -8.10803 over 363 frames.
+shehan_8_0_9 අට බිංදුව නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_8_0_9 is -8.2065 over 333 frames.
+shehan_9_1_9 නවය එක නවය 
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_9_1_9 is -8.42956 over 321 frames.
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:176) Time taken 2.00204s: real-time factor assuming 100 frames/sec is 0.0131221
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:179) Done 94 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.77696 over 15257 frames.
+# Accounting: time=2 threads=1
+# Ended (code 0) at Thu Feb 27 11:43:45 +0530 2020, elapsed time 2 seconds

@@ -1,0 +1,72 @@
+!SIL !SIL sil_S
+<UNK> <UNK> spn_S
+<eps> <eps> sil
+අට අට a_B t_I @_E
+අටදහස් අටදහස් a_B t_I @_I d^_I @_I h_I a_I s_E
+අටදාහ අටදාහ a_B t_I @_I d^_I a:_I h_I @_E
+අටසීය අටසීය a_B t_I @_I s_I i:_I y_I @_E
+අනූ අනූ a_B n_I u:_E
+අනූව අනූව a_B n_I u:_I w_I @_E
+අසූ අසූ a_B s_I u:_E
+අසූව අසූව a_B s_I u:_I w_I @_E
+එක එක e_B k_I @_E
+එකදාහ එකදාහ e_B k_I @_I d^_I a:_I h_I @_E
+එකසීය එකසීය e_B k_I @_I s_I i:_I y_I @_E
+එක්දහස් එක්දහස් e_B k_I d^_I a_I h_I a_I s_E
+එකොළහ එකොළහ e_B k_I o_I l_I @_I h_I a_E
+තිස් තිස් t^_B i_I s_E
+තිහ තිහ t^_B i_I h_I @_E
+තුන තුන t^_B u_I n_I @_E
+තුන්දහස් තුන්දහස් t^_B u_I n_I d^_I @_I h_I a_I s_E
+තුන්දාහ තුන්දාහ t^_B u_I n_I d^_I a:_I h_I @_E
+තුන්සීය තුන්සීය t^_B u_I n_I s_I i:_I y_I @_E
+දහඅට දහඅට d^_B a_I h_I a_I a_I t_I @_E
+දහතුන දහතුන d^_B a_I h_I a_I t^_I u_I n_I @_E
+දහදාහ දහදාහ d^_B a_I h_I a_I d^_I a:_I h_I @_E
+දහනමය දහනමය d^_B a_I h_I a_I n_I @_I m_I @_I y_I @_E
+දහනවය දහනවය d^_B a_I h_I a_I n_I @_I w_I @_I y_I @_E
+දහය දහය d^_B a_I h_I a_I y_I @_E
+දහසය දහසය d^_B a_I h_I a_I s_I @_I y_I @_E
+දහහත දහහත d^_B a_I h_I a_I h_I a_I t^_I @_E
+දහහතර දහහතර d^_B a_I h_I a_I h_I a_I t^_I @_I r_I @_E
+දාසය දාසය d^_B a:_I s_I @_I y_I @_E
+දාහ දාහ d^_B a:_I h_I @_E
+දාහත දාහත d^_B a:_I h_I @_I t^_I @_E
+දාහතර දාහතර d^_B a:_I h_I @_I t^_I @_I r_I @_E
+දෙක දෙක d^_B e_I k_I @_E
+දෙදහස් දෙදහස් d^_B e_I d^_I @_I h_I a_I s_E
+දෙදාහ දෙදාහ d^_B e_I d^_I a:_I h_I @_E
+දෙසීය දෙසීය d^_B e_I s_I i:_I y_I @_E
+දොළහ දොළහ d^_B o_I l_I @_I h_I a_E
+නමසීය නමසීය n_B a_I m_I @_I s_I i:_I y_I @_E
+නවදහස් නවදහස් n_B a_I w_I @_I d^_I @_I h_I a_I s_E
+නවදාහ නවදාහ n_B a_I w_I @_I d^_I a:_I h_I @_E
+නවය නවය n_B a_I w_I @_I y_I @_E
+නවසීය නවසීය n_B a_I w_I @_I s_I i:_I y_I @_E
+පනස් පනස් p_B a_I n_I a_I s_E
+පනහ පනහ p_B a_I n_I @_I h_I a_E
+පන්දහස් පන්දහස් p_B a_I n_I d^_I @_I h_I a_I s_E
+පන්දාහ පන්දාහ p_B a_I n_I d^_I a:_I h_I @_E
+පන්සීය පන්සීය p_B a_I n_I s_I i:_I y_I @_E
+පහ පහ p_B a_I h_I a_E
+පහළොව පහළොව p_B a_I h_I a_I l_I o_I w_I @_E
+බිංදුව බිංදුව b_B i_I x_I d^_I u_I w_I @_E
+විස්ස විස්ස w_B i_I s_I s_I @_E
+විසි විසි w_B i_I s_I i_E
+සීය සීය s_B i:_I y_I @_E
+හත හත h_B a_I t^_I @_E
+හතර හතර h_B a_I t^_I @_I r_I @_E
+හතලිස් හතලිස් h_B a_I t^_I @_I l_I i_I s_E
+හතලිහ හතලිහ h_B a_I t^_I @_I l_I i_I h_I @_E
+හත්දහස් හත්දහස් h_B a_I t^_I d^_I @_I h_I a_I s_E
+හත්දාහ හත්දාහ h_B a_I t^_I d^_I a:_I h_I @_E
+හත්සීය හත්සීය h_B a_I t^_I s_I i:_I y_I @_E
+හය හය h_B a_I y_I @_E
+හයදහස් හයදහස් h_B a_I y_I @_I d^_I @_I h_I a_I s_E
+හයදාහ හයදාහ h_B a_I y_I @_I d^_I a:_I h_I @_E
+හයසීය හයසීය h_B a_I y_I @_I s_I i:_I y_I @_E
+හාරදහස් හාරදහස් h_B a:_I r_I @_I d^_I @_I h_I a_I s_E
+හාරසීය හාරසීය h_B a_I r_I @_I s_I i:_I y_I @_E
+හැට හැට h_B ae_I t_I @_E
+හැත්ත හැත්ත h_B ae_I t^_I t^_I @_E
+හැත්තෑව හැත්තෑව h_B ae_I t^_I t^_I ae:_I w_I @_E

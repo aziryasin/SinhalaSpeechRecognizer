@@ -1,0 +1,3 @@
+azir_cont /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_test.ark:10
+sajith /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_test.ark:256
+shehan /home/azir/kaldi/egs/SinhalaSpeechRecognizer/DNN_Based/mfcc/cmvn_test.ark:502

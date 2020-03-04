@@ -1,0 +1,1 @@
+sum-lda-accs exp/nnet2/nnet2_simple/lda.acc exp/nnet2/nnet2_simple/lda.1.acc 
