@@ -1,7 +1,7 @@
 # nnet-shuffle-egs --srand=$[1+(4*0)] ark:exp/nnet2/nnet2_simple/egs/egs_tmp.1.0.ark ark:exp/nnet2/nnet2_simple/egs/egs.1.0.ark 
-# Started at Sat Feb 29 16:50:07 +0530 2020
+# Started at Tue Mar 10 01:06:41 +0530 2020
 #
 nnet-shuffle-egs --srand=1 ark:exp/nnet2/nnet2_simple/egs/egs_tmp.1.0.ark ark:exp/nnet2/nnet2_simple/egs/egs.1.0.ark 
 LOG (nnet-shuffle-egs[5.5.592~1-2b30a]:main():nnet-shuffle-egs.cc:102) Shuffled order of 7739 neural-network training examples 
 # Accounting: time=0 threads=1
-# Ended (code 0) at Sat Feb 29 16:50:07 +0530 2020, elapsed time 0 seconds
+# Ended (code 0) at Tue Mar 10 01:06:41 +0530 2020, elapsed time 0 seconds

@@ -1,5 +1,5 @@
 # build-tree --verbose=1 --max-leaves=2000 --cluster-thresh=-1 exp/tri1/treeacc data/lang/phones/roots.int exp/tri1/questions.qst data/lang/topo exp/tri1/tree 
-# Started at Fri Feb 21 13:56:57 +0530 2020
+# Started at Thu Mar 12 11:07:24 +0530 2020
 #
 build-tree --verbose=1 --max-leaves=2000 --cluster-thresh=-1 exp/tri1/treeacc data/lang/phones/roots.int exp/tri1/questions.qst data/lang/topo exp/tri1/tree 
 LOG (build-tree[5.5.592~1-2b30a]:main():build-tree.cc:104) Number of separate statistics is 859
@@ -74,4 +74,4 @@ VLOG[1] (build-tree[5.5.592~1-2b30a]:main():build-tree.cc:143) For pdf-id 142, l
 WARNING (build-tree[5.5.592~1-2b30a]:main():build-tree.cc:185) Saw no stats for following phones: 2 3 4 5 6 7 8 9 12 14 15 16 18 19 22 24 26 28 30 31 32 34 36 38 40 42 46 47 48 50 52 53 54 55 56 58 59 60 62 64 66 67 68 70 71 72 74 78 79 80 82 83 84 85 86 88 89 90 91 94 95 96 98 99 100 102 103 104 106 107 108 110 111 114 115 116 118 
 LOG (build-tree[5.5.592~1-2b30a]:main():build-tree.cc:189) Wrote tree
 # Accounting: time=0 threads=1
-# Ended (code 0) at Fri Feb 21 13:56:57 +0530 2020, elapsed time 0 seconds
+# Ended (code 0) at Thu Mar 12 11:07:24 +0530 2020, elapsed time 0 seconds

@@ -1,12 +1,12 @@
 # ali-to-post "ark:gunzip -c exp/tri1/ali.1.gz|" ark:- | acc-lda exp/tri1/final.mdl "ark,s,cs:splice-feats --left-context=4 --right-context=4 scp:data/train/split1/1/feats.scp ark:- |" ark,s,cs:- exp/nnet2/nnet2_simple/lda.1.acc 
-# Started at Sat Feb 29 16:50:06 +0530 2020
+# Started at Tue Mar 10 01:06:38 +0530 2020
 #
-ali-to-post 'ark:gunzip -c exp/tri1/ali.1.gz|' ark:- 
 acc-lda exp/tri1/final.mdl 'ark,s,cs:splice-feats --left-context=4 --right-context=4 scp:data/train/split1/1/feats.scp ark:- |' ark,s,cs:- exp/nnet2/nnet2_simple/lda.1.acc 
+ali-to-post 'ark:gunzip -c exp/tri1/ali.1.gz|' ark:- 
 splice-feats --left-context=4 --right-context=4 scp:data/train/split1/1/feats.scp ark:- 
 LOG (acc-lda[5.5.592~1-2b30a]:main():acc-lda.cc:114) Done 100 utterances.
 LOG (ali-to-post[5.5.592~1-2b30a]:main():ali-to-post.cc:73) Converted 155 alignments.
 LOG (acc-lda[5.5.592~1-2b30a]:main():acc-lda.cc:117) Done 155 files, failed for 0
 LOG (acc-lda[5.5.592~1-2b30a]:main():acc-lda.cc:122) Written statistics.
-# Accounting: time=0 threads=1
-# Ended (code 0) at Sat Feb 29 16:50:06 +0530 2020, elapsed time 0 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Mar 10 01:06:39 +0530 2020, elapsed time 1 seconds

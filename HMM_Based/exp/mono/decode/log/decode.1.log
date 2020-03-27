@@ -1,5 +1,5 @@
 # gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode/lat.1.gz" 
-# Started at Fri Feb 21 13:56:53 +0530 2020
+# Started at Thu Mar 12 11:07:20 +0530 2020
 #
 gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode/lat.1.gz' 
 add-deltas ark:- ark:- 
@@ -193,8 +193,8 @@ shehan_8_0_9 අට බිංදුව නවය
 LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_8_0_9 is -8.2065 over 333 frames.
 shehan_9_1_9 නවය එක නවය 
 LOG (gmm-latgen-faster[5.5.592~1-2b30a]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance shehan_9_1_9 is -8.42956 over 321 frames.
-LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:176) Time taken 1.91106s: real-time factor assuming 100 frames/sec is 0.0125258
+LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:176) Time taken 1.66589s: real-time factor assuming 100 frames/sec is 0.0109188
 LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:179) Done 94 utterances, failed for 0
 LOG (gmm-latgen-faster[5.5.592~1-2b30a]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.77696 over 15257 frames.
 # Accounting: time=2 threads=1
-# Ended (code 0) at Fri Feb 21 13:56:55 +0530 2020, elapsed time 2 seconds
+# Ended (code 0) at Thu Mar 12 11:07:22 +0530 2020, elapsed time 2 seconds

@@ -10,9 +10,9 @@ azir_cont_12 32
 azir_cont_13 23 
 azir_cont_14 34 
 azir_cont_148 13 58 56 
-azir_cont_14_2 34 
+azir_cont_14_2 33 
 azir_cont_15 51 
-azir_cont_1550 47 49 50 
+azir_cont_1550 47 49 46 
 azir_cont_16 31 
 azir_cont_16_2 31 
 azir_cont_17 33 
@@ -33,7 +33,7 @@ azir_cont_32 16 35
 azir_cont_3610 18 66 43 
 azir_cont_38_96 16 3 7 63 
 azir_cont_3_8_9_6 18 3 43 63 
-azir_cont_40 62 
+azir_cont_40 59 
 azir_cont_400 68 
 azir_cont_4000s 67 
 azir_cont_43 58 18 
@@ -73,7 +73,7 @@ azir_cont_96 7 63
 azir_cont_9721 41 62 
 azir_cont_9_7_2_1 43 56 11 11 
 sajith_1_5_8 35 50 3 
-sajith_2_3_6 35 63 63 
+sajith_2_3_6 35 18 63 
 sajith_3_0_9 18 52 43 
 sajith_3_6_9 18 63 43 
 sajith_5_5_6 50 50 63 
@@ -83,7 +83,7 @@ sajith_6_1_4 63 11 57
 sajith_7_4_2 57 57 35 
 sajith_7_9_6 57 43 63 
 shehan_1_1_8 11 11 3 
-shehan_1_4_8 11 57 70 
+shehan_1_4_8 11 57 3 
 shehan_1_7_2 11 56 35 
 shehan_2_4_6 35 56 63 
 shehan_3_1_9 18 11 43 

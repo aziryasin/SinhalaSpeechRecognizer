@@ -1,8 +1,8 @@
 # compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_test.1.ark,/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_test.1.scp 
-# Started at Fri Feb 21 13:56:31 +0530 2020
+# Started at Thu Mar 12 11:06:59 +0530 2020
 #
-copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_test.1.ark,/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_test.1.scp 
 compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- 
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_test.1.ark,/home/azir/kaldi/egs/SinhalaSpeechRecognizer/HMM_Based/mfcc/raw_mfcc_test.1.scp 
 VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_10
 VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_100
 VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key azir_cont_1000
@@ -108,5 +108,5 @@ VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) P
 VLOG[2] (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:182) Processed features for key shehan_9_1_9
 LOG (compute-mfcc-feats[5.5.592~1-2b30a]:main():compute-mfcc-feats.cc:185)  Done 94 out of 94 utterances.
 LOG (copy-feats[5.5.592~1-2b30a]:main():copy-feats.cc:143) Copied 94 feature matrices.
-# Accounting: time=2 threads=1
-# Ended (code 0) at Fri Feb 21 13:56:33 +0530 2020, elapsed time 2 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Thu Mar 12 11:07:00 +0530 2020, elapsed time 1 seconds

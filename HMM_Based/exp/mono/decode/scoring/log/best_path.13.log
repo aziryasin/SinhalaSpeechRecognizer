@@ -1,5 +1,5 @@
 # lattice-best-path --lm-scale=13 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/13.tra 
-# Started at Fri Feb 21 13:56:55 +0530 2020
+# Started at Thu Mar 12 11:07:22 +0530 2020
 #
 lattice-best-path --lm-scale=13 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/13.tra 
 LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:99) For utterance azir_cont_10, best cost 187.727 + 9151.37 = 9339.09 over 105 frames.
@@ -193,4 +193,4 @@ shehan_9_1_9 නවය එක නවය
 LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:124) Overall cost per frame is 93.4484 = 1.61426 [graph] + 91.8342 [acoustic] over 15257 frames.
 LOG (lattice-best-path[5.5.592~1-2b30a]:main():lattice-best-path.cc:128) Done 94 lattices, failed for 0
 # Accounting: time=0 threads=1
-# Ended (code 0) at Fri Feb 21 13:56:55 +0530 2020, elapsed time 0 seconds
+# Ended (code 0) at Thu Mar 12 11:07:22 +0530 2020, elapsed time 0 seconds

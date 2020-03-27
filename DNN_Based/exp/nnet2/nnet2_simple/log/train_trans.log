@@ -1,5 +1,5 @@
 # nnet-train-transitions exp/nnet2/nnet2_simple/0.mdl "ark:gunzip -c exp/tri1/ali.*.gz|" exp/nnet2/nnet2_simple/0.mdl 
-# Started at Sat Feb 29 16:50:07 +0530 2020
+# Started at Tue Mar 10 01:06:41 +0530 2020
 #
 nnet-train-transitions exp/nnet2/nnet2_simple/0.mdl 'ark:gunzip -c exp/tri1/ali.*.gz|' exp/nnet2/nnet2_simple/0.mdl 
 LOG (nnet-train-transitions[5.5.592~1-2b30a]:main():nnet-train-transitions.cc:118) Accumulated transition stats from 155 utterances.
@@ -8,5 +8,5 @@ LOG (nnet-train-transitions[5.5.592~1-2b30a]:MleUpdate():transition-model.cc:531
 LOG (nnet-train-transitions[5.5.592~1-2b30a]:main():nnet-train-transitions.cc:125) Transition model update: average 0.319497 log-like improvement per frame over 30955 frames.
 LOG (nnet-train-transitions[5.5.592~1-2b30a]:main():nnet-train-transitions.cc:131) Setting priors of pdfs in the model.
 LOG (nnet-train-transitions[5.5.592~1-2b30a]:main():nnet-train-transitions.cc:140) Trained transitions of neural network model and wrote it to exp/nnet2/nnet2_simple/0.mdl
-# Accounting: time=0 threads=1
-# Ended (code 0) at Sat Feb 29 16:50:07 +0530 2020, elapsed time 0 seconds
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Mar 10 01:06:42 +0530 2020, elapsed time 1 seconds

@@ -1,5 +1,5 @@
 # gmm-est --mix-up=5600 --power=0.25 --write-occs=exp/tri1/12.occs exp/tri1/11.mdl "gmm-sum-accs - exp/tri1/11.*.acc |" exp/tri1/12.mdl 
-# Started at Fri Feb 21 13:57:01 +0530 2020
+# Started at Thu Mar 12 11:07:28 +0530 2020
 #
 gmm-est --mix-up=5600 --power=0.25 --write-occs=exp/tri1/12.occs exp/tri1/11.mdl 'gmm-sum-accs - exp/tri1/11.*.acc |' exp/tri1/12.mdl 
 gmm-sum-accs - exp/tri1/11.1.acc 
@@ -27,4 +27,4 @@ WARNING (gmm-est[5.5.592~1-2b30a]:GetSplitTargets():model-common.cc:134) Could n
 LOG (gmm-est[5.5.592~1-2b30a]:SplitByCount():am-diag-gmm.cc:116) Split 144 states with target = 5600, power = 0.25, perturb_factor = 0.01 and min_count = 20, split #Gauss from 1470 to 1478
 LOG (gmm-est[5.5.592~1-2b30a]:main():gmm-est.cc:146) Written model to exp/tri1/12.mdl
 # Accounting: time=0 threads=1
-# Ended (code 0) at Fri Feb 21 13:57:01 +0530 2020, elapsed time 0 seconds
+# Ended (code 0) at Thu Mar 12 11:07:28 +0530 2020, elapsed time 0 seconds
